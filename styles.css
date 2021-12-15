@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  background-color: #FF7800;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8519782913165266) 100%);
+}
+
+.display-body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+ /* position : absolute;
+  left: 50%;
+  top: 50%;*/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-page {
+  
+}
+
+.main-body {
+  display: none;
+}
+
+.heading-container {
+  position: relative;
+  bottom: 2rem;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  border-radius: 10px 100px / 120px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  width: 45%;
+  margin: auto; 
+
+
+}
+.container {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  border-radius: 50% 20% / 10% 40%;
+  
+  width: 95%;
+  margin: 4rem auto;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.drum-img {
+  width: 7%;
+}
+
+footer:hover{
+  color: #32CCBC;
+}
+
+footer {
+  color: #9F44D3;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+  border: 10px solid #32CCBC;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #9F44D3;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.taddy {
+  position: absolute;
+  z-index: -1;
+  top: 2px;
+  right: 2px;
+  border-radius: 50% 20% / 10% 40%;
+  width: 11%;
+}
